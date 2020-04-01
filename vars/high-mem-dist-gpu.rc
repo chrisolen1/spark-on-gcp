@@ -1,5 +1,5 @@
 ### Set up environmental variables ###
-# Multiple GPUs on Master; N Workers are to be preemptible
+# GPUs are distributed amongst preemptible workers
 
 export PROJECT_NAME=sarcasm
 export PROJECT_ID=sarcasm-5 # project_id needs to be updated here for new projects
@@ -14,8 +14,8 @@ export REGION=asia-east1
 export MASTER_MCHN_TYPE=n1-highmem-4
 export NUM_MASTERS=1
 export MASTER_SD_SIZE=500GB
-export MASTER_ACCELERATOR_TYPE=nvidia-tesla-k80
-export MASTER_ACCELERATOR_COUNT=2
+export WORKER_ACCELERATOR_TYPE=nvidia-tesla-k80
+export WORKER_ACCELERATOR_COUNT=1
 export WORKER_MCHN_TYPE=n1-highmem-4
 export NUM_WORKERS=3
 export WORKER_SD_SIZE=500GB

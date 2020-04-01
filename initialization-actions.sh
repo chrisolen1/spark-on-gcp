@@ -10,8 +10,5 @@ gsutil cp gs://sarc-bucket-5/start-jupyter.sh /start-jupyter.sh
 # changing ownership for write access to repo
 sudo chown -R chrisolen:chrisolen /sarcasm-detection
 
-# upgrading to tensorflow-gpu
-pip install --upgrade tensorflow-gpu
-
 # initializing gh account
 #cd ../../sarcasm-detection && git config --global user.name "chrisolen1"
