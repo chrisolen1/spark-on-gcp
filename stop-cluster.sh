@@ -1,1 +1,1 @@
-gcloud dataproc clusters delete sarc-cluster --region $REGION
+gcloud dataproc clusters delete $CLUSTER_NAME --region $REGION
