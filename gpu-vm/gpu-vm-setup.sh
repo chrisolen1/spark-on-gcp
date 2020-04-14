@@ -1,7 +1,7 @@
 # Prophylactically update all the packages, optional.
 sudo apt -y update && sudo apt -y upgrade
 
-sudo apt-get install -yq python3 python3-pip
+sudo apt-get install -yq python3 python3-pip libsndfile1-dev
 pip3 install wrapt --upgrade --ignore-installed
 pip3 install pandas
 pip3 install scipy 
@@ -10,6 +10,15 @@ pip3 install keras
 pip3 install tensorflow_hub
 pip3 install pomegranate==0.10
 pip3 install cupy
+pip3 install gcsfs
+pip3 install jupyter
+pip3 install librosa
+pip3 install soundfile
+pip3 install python_speech_features
+pip3 install pydub
+pip3 install --upgrade google-cloud-storage
+pip3 install wave
+pip3 install hmmlearn
 
 # cloning repo of interest
 git clone https://github.com/venkunikku/crew-2.git
