@@ -1,0 +1,17 @@
+### Set up environmental variables ###
+
+export USER=chris
+export PROJECT_NAME=demand-allocation
+export PROJECT_ID=demand-allocation # project_id needs to be updated here for new project
+export VM_NAME=da-vm
+
+export REGION=us-central1
+export ZONE=us-central1-a
+
+export MCHN_TYPE=n1-standard-4
+export SD_SIZE=500GB
+
+export IMAGE_VERSION=ubuntu-1804-lts
+
+export PYTHON_VERSION=3.7
+

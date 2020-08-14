@@ -1,3 +1,6 @@
+# changing ownership for write access to repo
+sudo chown -R chrisolen:chrisolen /urban-demand-allocation
+
 jupyter notebook --generate-config
 
 jupyter notebook password
