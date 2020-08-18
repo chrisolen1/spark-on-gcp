@@ -19,6 +19,7 @@ pip3 install tqdm
 pip3 install py2neo
 pip3 install networkx
 pip3 install shapely
+pip3 install p_tqdm
 #cupy setup
 pip3 install cupy --no-cache-dir -vvvv
 pip3 install cython
