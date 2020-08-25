@@ -1,0 +1,16 @@
+export PROJECT_NAME=demand-allocation
+export PROJECT_ID=demand-allocation # project_id needs to be updated here for new project
+
+export CLUSTER=neo4j-ce-cluster
+export ZONE=us-central1-a
+export APP_INSTANCE_NAME=neo4j-ce-1
+export NAMESPACE=default
+
+export IMAGE_REGISTRY="marketplace.gcr.io/google"
+export IMAGE_NEO4J_CE="${IMAGE_REGISTRY}/neo4j4"
+export TAG=4.0
+
+export NEO4J_STORAGE_CLASS="standard" # provide your StorageClass name if not "standard"
+export PERSISTENT_DISK_SIZE="10Gi"
+
+export NEO4J_PASSWORD="root_password"

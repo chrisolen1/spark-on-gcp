@@ -24,6 +24,9 @@ pip3 install shapely
 #pip3 install cython
 #pip3 install ipdb==0.8.1
 
+# kubectl
+snap install kubectl --classic
+
 # cloning repo of interest
 git clone https://github.com/chrisolen1/urban-demand-allocation.git
 
