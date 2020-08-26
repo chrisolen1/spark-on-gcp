@@ -1,7 +1,7 @@
 # Create a new cluster from the command line:
 gcloud container clusters create "${CLUSTER}" --zone "${ZONE}" \
 --machine-type $MCHN_TYPE --disk-type pd-$NEO4J_STORAGE_CLASS \
---scopes storage-rw 
+--scopes storage-rw --num-nodes=1
 
 # Configure kubectl to connect to the new cluster:
 gcloud container clusters get-credentials "${CLUSTER}" --zone "${ZONE}"

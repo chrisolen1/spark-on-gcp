@@ -1,6 +1,3 @@
-# tensorflow dependency
-pip install wrapt --upgrade --ignore-installed
-
 # cloning repo of interest
 git clone https://github.com/chrisolen1/urban-demand-allocation.git
 
